@@ -16,3 +16,8 @@ class School:
         for student in self.students:
             if student.school_id == student_id:
                 return student
+
+# This method will need to create a new instance of a student object and add it to the `self.students` variable.
+    def add_student(self):
+        print("add_student_method_check")
+        self.students = add_student()
